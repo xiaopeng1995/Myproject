@@ -17,15 +17,15 @@ public class UIGameFunction {
         System.out.println("欢迎您"+ds.getString("name")+"来到魔幻巨作~~幻想世界~~");
                 /*User Iofor*/
         System.out.println("您的信息如下：");
-        System.out.println("*******```````````````````````````````````````````人物信息`````````````````````````````````````````````*******\n"
-                + "您当前等级：" +ds.getInteger("grade")+"级\t"
+        System.out.println("↓↓↓↓↓↓↓↓↓```````````````````````````````````````````人物信息`````````````````````````````````````````````↓↓↓↓↓↓↓↓↓\n"
+                + "\t\t\t\t您当前等级：" +ds.getInteger("grade")+"级\t"
                 + "您当前的经验为"+ds.getInteger("exp")+"点，升级需要"+ds.getInteger("grade")*76*ds.getInteger("grade")+"点\t"
                 + "您当前游戏币："+ds.getInteger("gamemoney")+ "文\t"
-                + "您的金币"+ds.getInteger("gold") +"个\n\n"
-                + "*******```````````````````````````````````````````*******`````````````````````````````````````````````*******");
+                + "您的金币"+ds.getInteger("gold") +"个\n"
+                + "↑↑↑↑↑↑↑↑↑```````````````````````````````````````````↑↑↑↑`````````````````````````````````````````````↑↑↑↑↑↑↑↑↑");
                 /*Geme Function Choose*/
         System.out.println("已经准备好的游戏功能有：");
-        System.out.println("1：野外刷怪\t\t2：副本~妖魔塔~\t3:每日一抽（有机会赢取100元移动手机充值卡)\t4：更多功能...（请期待）");
+        System.out.println("1：野外幸运刷怪\t\t2：副本~妖魔塔~（开发中！）\t3:每日一抽（有机会赢取100元移动手机充值卡)\t4：更多功能...（请期待）");
         System.out.println("请输入序号开始游戏");
         Scanner s = new Scanner(System.in);
         String GemeFunctionChoose = s.next();
