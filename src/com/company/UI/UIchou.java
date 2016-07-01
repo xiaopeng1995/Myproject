@@ -35,7 +35,9 @@ public class UIchou {
                     {
                         if(lucky<3)
                         {
-                            System.out.println("\n您获得10000点经验！");
+                            System.out.println("\n" +
+                                    "系统消息````````````````````````````````````````````````````````````````````````````````````````系统消息\n您获得10000点经验！\n" +
+                                    "系统消息````````````````````````````````````````````````````````````````````````````````````````系统消息");
                             int [] info=userwork.UserworkGrade(ds.getInteger("exp")+(10000),ds.getInteger("grade"));
                             ds.put("grade",info[0]);
                             ds.put("exp",info[1]);
@@ -43,19 +45,27 @@ public class UIchou {
                         }
                         if(lucky>=3&&lucky<7)
                         {
-                            System.out.println("\n您获得1000文钱！");
+                            System.out.println("\n" +
+                                    "\n" +
+                                    "系统消息````````````````````````````````````````````````````````````````````````````````````````系统消息\n您获得1000文钱！\n" +
+                                    "\n" +
+                                    "系统消息````````````````````````````````````````````````````````````````````````````````````````系统消息\n");
                             ds.put("gamemoney",ds.getInteger("gamemoney")+1000);
                             mogo.UpdateUser(ds);
                         }
                         if(lucky==7)
                         {
-                            System.out.println("\n您获得200金币！");
+                            System.out.println("\n" +
+                                    "系统消息````````````````````````````````````````````````````````````````````````````````````````系统消息\n您获得200金币！\n" +
+                                    "系统消息````````````````````````````````````````````````````````````````````````````````````````系统消息");
                             ds.put("gold",ds.getInteger("gold")+200);
                             mogo.UpdateUser(ds);
                         }
                         if(lucky==8)
                         {
-                            System.out.println("\n您获得50金币！");
+                            System.out.println("\n" +
+                                    "系统消息````````````````````````````````````````````````````````````````````````````````````````系统消息\n您获得50金币！\n" +
+                                    "系统消息````````````````````````````````````````````````````````````````````````````````````````系统消息");
                             ds.put("gold",ds.getInteger("gold")+50);
                             mogo.UpdateUser(ds);
                         }
@@ -64,7 +74,8 @@ public class UIchou {
                     else
                     {
                         System.out.println(cdk.RandomNum());
-                        System.out.println("\nVery lucky!");
+                        System.out.println("\n" +
+                                "系统消息````````````````````````````````````````````````````````````````````````````````````````系统消息\nVery lucky!");
                         System.out.println("中");
                         System.out.println("奖");
                         System.out.println("了");
@@ -76,7 +87,8 @@ public class UIchou {
                         System.out.println("|");
                         System.out.println("|");
                         System.out.println("|");
-                        System.out.println("|");
+                        System.out.println("|\n" +
+                                "系统消息````````````````````````````````````````````````````````````````````````````````````````系统消息");
                     }
                     uiGameFunction.UIGameFunctionmain(mogo,ds);
                     timer.cancel();
