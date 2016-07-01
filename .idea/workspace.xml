@@ -749,7 +749,7 @@
       <workItem from="1467255461932" duration="39000" />
       <workItem from="1467261184499" duration="10759000" />
       <workItem from="1467333768672" duration="22481000" />
-      <workItem from="1467357759039" duration="816000" />
+      <workItem from="1467357759039" duration="1167000" />
     </task>
     <task id="LOCAL-00001" summary="修复">
       <created>1467358482357</created>
@@ -765,14 +765,21 @@
       <option name="project" value="LOCAL" />
       <updated>1467358568706</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修复">
+      <created>1467358585796</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1467358585796</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56508000" />
+    <option name="totallyTimeSpent" value="56859000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
