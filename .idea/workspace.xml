@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="608cde1f-dce9-437d-b469-dd62c2b5cbcb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Mongotest.iws" />
@@ -750,7 +749,7 @@
       <workItem from="1467255461932" duration="39000" />
       <workItem from="1467261184499" duration="10759000" />
       <workItem from="1467333768672" duration="22481000" />
-      <workItem from="1467357759039" duration="806000" />
+      <workItem from="1467357759039" duration="816000" />
     </task>
     <task id="LOCAL-00001" summary="修复">
       <created>1467358482357</created>
@@ -759,11 +758,18 @@
       <option name="project" value="LOCAL" />
       <updated>1467358482357</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修复">
+      <created>1467358568706</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1467358568706</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56498000" />
+    <option name="totallyTimeSpent" value="56508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
