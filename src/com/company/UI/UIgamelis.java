@@ -27,7 +27,7 @@ public class UIgamelis {
         User user=new User();
         System.out.println("\n游戏开始");
         /*****************Geme Main Choose judge*****************************/
-        System.out.println("1.登陆\t2.注册\t3找回密码（功能待完善）");
+        System.out.println("1.登陆\t2.注册\t3找回密码");
         System.out.println("请输入序号开始游戏");
         Scanner scanner = new Scanner(System.in);
         String GemeMainChoose= scanner.next();
@@ -43,7 +43,7 @@ public class UIgamelis {
         }
         else if (GemeMainChoose.equals("3"))
         {
-            System.out.println("功能正在完善");
+            System.out.println("忘记密码去找开发者吧");
             Endshow(mogo);
         }
         else

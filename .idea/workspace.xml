@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="608cde1f-dce9-437d-b469-dd62c2b5cbcb" name="Default" comment="优化小怪显示">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Mongotest/com/company/UI/UIGameFunction.class" afterPath="$PROJECT_DIR$/out/production/Mongotest/com/company/UI/UIGameFunction.class" />
+    <list default="true" id="608cde1f-dce9-437d-b469-dd62c2b5cbcb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Mongotest/com/company/UI/UIchou$1.class" afterPath="$PROJECT_DIR$/out/production/Mongotest/com/company/UI/UIchou$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Mongotest/com/company/UI/UImonster$1.class" afterPath="$PROJECT_DIR$/out/production/Mongotest/com/company/UI/UImonster$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Mongotest/com/company/UI/UImonster.class" afterPath="$PROJECT_DIR$/out/production/Mongotest/com/company/UI/UImonster.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/UI/UIGameFunction.java" afterPath="$PROJECT_DIR$/src/com/company/UI/UIGameFunction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/UI/UIchou.java" afterPath="$PROJECT_DIR$/src/com/company/UI/UIchou.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/UI/UImonster.java" afterPath="$PROJECT_DIR$/src/com/company/UI/UImonster.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/UI/UIgamelis.java" afterPath="$PROJECT_DIR$/src/com/company/UI/UIgamelis.java" />
     </list>
     <ignored path="Mongotest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,10 +38,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UImonster.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UImonster.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/UI/UImonster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="704">
               <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -48,11 +50,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UIGameFunction.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UIgamelis.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/UI/UIgamelis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UIGameFunction.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/UI/UIGameFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="129" />
+            <state relative-caret-position="161">
+              <caret line="27" column="89" selection-start-line="27" selection-start-column="89" selection-end-line="27" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,8 +75,8 @@
       <file leaf-file-name="UIchou.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/UI/UIchou.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="97" column="114" selection-start-line="97" selection-start-column="114" selection-end-line="97" selection-end-column="114" />
+            <state relative-caret-position="399">
+              <caret line="26" column="103" selection-start-line="26" selection-start-column="103" selection-end-line="26" selection-end-column="103" />
               <folding />
             </state>
           </provider>
@@ -110,7 +122,6 @@
         <option value="$PROJECT_DIR$/src/com/company/mongoDao/updatell.java" />
         <option value="$PROJECT_DIR$/src/com/company/mongoDao/findall.java" />
         <option value="$PROJECT_DIR$/src/com/company/mongoDao/addall.java" />
-        <option value="$PROJECT_DIR$/src/com/company/UI/UIgamelis.java" />
         <option value="$PROJECT_DIR$/src/com/company/testmain.java" />
         <option value="$PROJECT_DIR$/src/com/company/MongoMain.java" />
         <option value="$PROJECT_DIR$/src/com/company/UI/UImain.java" />
@@ -118,9 +129,10 @@
         <option value="$PROJECT_DIR$/src/com/company/mongoDao/Addall.java" />
         <option value="$PROJECT_DIR$/src/com/company/mongoDao/Findall.java" />
         <option value="$PROJECT_DIR$/src/com/company/work/Userwork.java" />
-        <option value="$PROJECT_DIR$/src/com/company/UI/UIGameFunction.java" />
-        <option value="$PROJECT_DIR$/src/com/company/UI/UIchou.java" />
         <option value="$PROJECT_DIR$/src/com/company/UI/UImonster.java" />
+        <option value="$PROJECT_DIR$/src/com/company/UI/UIgamelis.java" />
+        <option value="$PROJECT_DIR$/src/com/company/UI/UIchou.java" />
+        <option value="$PROJECT_DIR$/src/com/company/UI/UIGameFunction.java" />
       </list>
     </option>
   </component>
@@ -794,7 +806,7 @@
       <workItem from="1467261184499" duration="10759000" />
       <workItem from="1467333768672" duration="22481000" />
       <workItem from="1467357759039" duration="692000" />
-      <workItem from="1467360333735" duration="4968000" />
+      <workItem from="1467360333735" duration="5628000" />
     </task>
     <task id="LOCAL-00001" summary="修复游戏币修改功能">
       <created>1467361914170</created>
@@ -817,15 +829,22 @@
       <option name="project" value="LOCAL" />
       <updated>1467363475799</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="优化大部分显示增加幸运刷怪">
+      <created>1467365334980</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1467365334980</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61352000" />
+    <option name="totallyTimeSpent" value="62012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -836,7 +855,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0503212" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17845118" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -872,7 +891,8 @@
     <MESSAGE value="修复游戏币修改功能" />
     <MESSAGE value="修复消息显示不明显" />
     <MESSAGE value="优化小怪显示" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化小怪显示" />
+    <MESSAGE value="优化大部分显示增加幸运刷怪" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化大部分显示增加幸运刷怪" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1178,14 +1198,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/UI/UIgamelis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/mogon/MongoStorage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="774">
@@ -1194,28 +1206,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/UI/UIGameFunction.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/UI/UImonster.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="129" />
+        <state relative-caret-position="704">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/UI/UIchou.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/UI/UIgamelis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="97" column="114" selection-start-line="97" selection-start-column="114" selection-end-line="97" selection-end-column="114" />
+        <state relative-caret-position="616">
+          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/UI/UImonster.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/UI/UIchou.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="399">
+          <caret line="26" column="103" selection-start-line="26" selection-start-column="103" selection-end-line="26" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/UI/UIGameFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="27" column="89" selection-start-line="27" selection-start-column="89" selection-end-line="27" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

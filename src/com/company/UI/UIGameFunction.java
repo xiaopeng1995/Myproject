@@ -25,7 +25,7 @@ public class UIGameFunction {
                 + "↑↑↑↑↑↑↑↑↑```````````````````````````````````````````↑↑↑↑`````````````````````````````````````````````↑↑↑↑↑↑↑↑↑");
                 /*Geme Function Choose*/
         System.out.println("已经准备好的游戏功能有：");
-        System.out.println("1：野外幸运刷怪\t\t2：副本~妖魔塔~（开发中！）\t3:每日一抽（有机会赢取100元移动手机充值卡)\t4：更多功能...（请期待）");
+        System.out.println("1：野外幸运刷怪\t\t2：副本~妖魔塔~（开发中！）\t3:金币抽奖（有机会赢取100元移动手机充值卡,100金币抽一次)\t4：更多功能...（请期待）");
         System.out.println("请输入序号开始游戏");
         Scanner s = new Scanner(System.in);
         String GemeFunctionChoose = s.next();
