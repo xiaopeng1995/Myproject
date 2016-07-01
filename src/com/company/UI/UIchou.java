@@ -29,10 +29,11 @@ public class UIchou {
                     System.out.print("*");
                 }
                 if(a==25){
-
-                    if(cdk.RandomNum()<9)
+                    int lucky=cdk.RandomNum();
+                    System.out.println(lucky);
+                    if(lucky<9)
                     {
-                        if(cdk.RandomNum()<3)
+                        if(lucky<3)
                         {
                             System.out.println("\n您获得10000点经验！");
                             int [] info=userwork.UserworkGrade(ds.getInteger("exp")+(10000),ds.getInteger("grade"));
@@ -40,19 +41,19 @@ public class UIchou {
                             ds.put("exp",info[1]);
                             mogo.UpdateUser(ds);
                         }
-                        if(cdk.RandomNum()>=3&&cdk.RandomNum()<7)
+                        if(lucky>=3&&lucky<7)
                         {
                             System.out.println("\n您获得1000文钱！");
                             ds.put("gamemoney",ds.getInteger("gamemoney")+1000);
                             mogo.UpdateUser(ds);
                         }
-                        if(cdk.RandomNum()=7)
+                        if(lucky==7)
                         {
                             System.out.println("\n您获得200金币！");
                             ds.put("gold",ds.getInteger("gold")+200);
                             mogo.UpdateUser(ds);
                         }
-                        else
+                        if(lucky==8)
                         {
                             System.out.println("\n您获得50金币！");
                             ds.put("gold",ds.getInteger("gold")+50);
@@ -62,6 +63,7 @@ public class UIchou {
                     }
                     else
                     {
+                        System.out.println(cdk.RandomNum());
                         System.out.println("\nVery lucky!");
                         System.out.println("中");
                         System.out.println("奖");
