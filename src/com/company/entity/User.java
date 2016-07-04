@@ -13,6 +13,7 @@ public class User {
     private int exp;
     private int  gamemoney;
     private int gold;
+    private int vigour;
 
     public ObjectId getId() {
         return id;
@@ -68,5 +69,13 @@ public class User {
 
     public void setGamemoney(int gamemoney) {
         this.gamemoney = gamemoney;
+    }
+
+    public int getVigour() {
+        return vigour;
+    }
+
+    public void setVigour(int vigour) {
+        this.vigour = vigour;
     }
 }

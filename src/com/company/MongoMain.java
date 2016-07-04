@@ -1,15 +1,9 @@
 package com.company;
 
 
-import com.company.UI.UIchou;
-import com.company.UI.UIgamelis;
 import com.company.UI.UImain;
-import com.company.entity.User;
-import com.company.entity.aa;
 import com.company.mogon.MongoStorage;
 import org.apache.commons.configuration.PropertiesConfiguration;
-import org.bson.types.ObjectId;
-import java.util.List;
 
 
 public class MongoMain {

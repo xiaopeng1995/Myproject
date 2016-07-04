@@ -122,6 +122,8 @@ public class MongoStorage {
         d.append("exp",0);
         d.append("gamemoney",0);
         d.append("gold",100);
+        d.append("vigour",100);
+        d.append("Fishing",10);
         d.append("insert_at", new Date());
         this.database.getCollection("User").insertOne(d);
         user.setId(d.getObjectId("_id"));
